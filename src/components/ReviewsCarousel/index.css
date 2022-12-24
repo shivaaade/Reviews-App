@@ -1,0 +1,7 @@
+/* Write your code here */
+
+.back {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
