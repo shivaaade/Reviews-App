@@ -34,18 +34,18 @@ class ReviewsCarousel extends Component {
       <div className="back">
         <h1>Reviews</h1>
 
-        <button type="button" onClick={this.onLeftArrow}>
+        <button testid="leftArrow" type="button" onClick={this.onLeftArrow}>
           <img
             alt="left arrow"
             src="https://assets.ccbp.in/frontend/react-js/left-arrow-img.png"
           />
         </button>
         <img value={username} alt={username} src={imgUrl} />
-        <p>
-          {username} {companyName} {description}{' '}
-        </p>
+        <p>{username}</p>
+        <p>{companyName}</p>
+        <p>{description}</p>
 
-        <button type="button" onClick={this.onRightArrow}>
+        <button testid="rightArrow" type="button" onClick={this.onRightArrow}>
           <img
             alt="right arrow"
             src="https://assets.ccbp.in/frontend/react-js/right-arrow-img.png"
